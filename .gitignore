@@ -1,2 +1,3 @@
-
+/.idea
 cmd/httpx/httpx
+cmd/httpx/domains.txt
