@@ -145,6 +145,7 @@ This will display help for the tool. Here are all the switches it supports.
 | match-string            | Filter results based on matched string                  | httpx -match-string XXX                            |
 | filter-regex            | Filter results based on filtered regex                  | httpx -filter-regex XXX                            |
 | match-regex             | Filter results based on matched regex                   | httpx -match-regex XXX                             |
+| custom-regex            | 使用自定义表达式匹配网页内容并输出(必须包含子表达式)              | httpx -custom-regex "(?im)(.*?)"                   |
 
 
 ### Running httpx with stdin  
